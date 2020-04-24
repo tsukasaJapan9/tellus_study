@@ -7,8 +7,10 @@
     "start": "http-server -a 127.0.0.1 -p 8080 -o"
   },
   "author": "",
-  "license": "",
+  "license": "ISC",
   "dependencies": {
-    "http-server": "^0.10.0"
+    "express": "^4.17.1",
+    "http-server": "^0.10.0",
+    "nodemon": "^2.0.3"
   }
 }
