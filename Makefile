@@ -1,4 +1,10 @@
-.PHONY: log
+.PHONY: log hrestart hdyno
 
-log:
-	heroku logs -a video-chat-sample
+hlog:
+	heroku logs -a video-chat-sample -t
+
+hrestart:
+	heroku restart -a video-chat-sample
+
+hdyno:
+	heroku ps -a video-chat-sample
