@@ -1,5 +1,8 @@
 .PHONY: log hrestart hdyno
 
+run:
+	node char-server/app.js
+
 log:
 	heroku logs -a video-chat-sample -t
 
