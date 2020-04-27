@@ -3,6 +3,9 @@
 run:
 	npx nodemon chat-server/app.js
 
+open:
+	heroku open -a video-chat-sample
+
 log:
 	heroku logs -a video-chat-sample -t
 
